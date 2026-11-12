@@ -1,0 +1,29 @@
+# Material Hush — WezTerm
+
+[metadata]
+name = "Material Hush"
+
+[colors]
+foreground    = "#fafafa"
+background    = "#1c1c1c"
+cursor_bg     = "#fafafa"
+cursor_fg     = "#1c1c1c"
+cursor_border = "#fafafa"
+selection_fg  = "#fafafa"
+selection_bg  = "#3a3a3a"
+scrollbar_thumb = "#2e2e2e"
+split         = "#2e2e2e"
+
+ansi    = ["#4a4a4a", "#ebafbd", "#dcdfb5", "#f5d2b1", "#aaccee", "#cac0ec", "#b8e0e7", "#dddddd"]
+brights = ["#4a4a4a", "#ebafbd", "#dcdfb5", "#f5d2b1", "#aaccee", "#cac0ec", "#b8e0e7", "#dddddd"]
+
+[colors.tab_bar]
+background = "#1c1c1c"
+
+[colors.tab_bar.active_tab]
+bg_color = "#2a2a2a"
+fg_color = "#fafafa"
+
+[colors.tab_bar.inactive_tab]
+bg_color = "#1c1c1c"
+fg_color = "#7a7a7a"

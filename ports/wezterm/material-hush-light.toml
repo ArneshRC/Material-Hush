@@ -1,0 +1,29 @@
+# Material Hush Light — WezTerm
+
+[metadata]
+name = "Material Hush Light"
+
+[colors]
+foreground    = "#181818"
+background    = "#f5f5f4"
+cursor_bg     = "#181818"
+cursor_fg     = "#f5f5f4"
+cursor_border = "#181818"
+selection_fg  = "#181818"
+selection_bg  = "#d6d6d3"
+scrollbar_thumb = "#dededc"
+split         = "#dededc"
+
+ansi    = ["#b3b3b3", "#905b68", "#6a6c47", "#826346", "#4e6c8b", "#6d648b", "#4b6f76", "#2e2e2e"]
+brights = ["#b3b3b3", "#905b68", "#6a6c47", "#826346", "#4e6c8b", "#6d648b", "#4b6f76", "#2e2e2e"]
+
+[colors.tab_bar]
+background = "#f5f5f4"
+
+[colors.tab_bar.active_tab]
+bg_color = "#e4e4e2"
+fg_color = "#181818"
+
+[colors.tab_bar.inactive_tab]
+bg_color = "#f5f5f4"
+fg_color = "#7c7c7a"
