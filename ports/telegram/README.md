@@ -4,7 +4,7 @@ A dark theme for [Telegram Desktop](https://github.com/telegramdesktop/tdesktop)
 
 ## Install
 
-1. From this folder, pack the two files into a theme:
+1. [Download the theme](https://github.com/ArneshRC/Material-Hush/releases/download/telegram/material-hush.tdesktop-theme), or zip it yourself from this folder:
 
    ```sh
    zip material-hush.tdesktop-theme colors.tdesktop-theme tiled.png
