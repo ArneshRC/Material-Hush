@@ -1,0 +1,22 @@
+! Material Hush Light — Xresources
+
+*.foreground:  #181818
+*.background:  #f5f5f4
+*.cursorColor: #181818
+
+*.color0:  #b3b3b3
+*.color1:  #905b68
+*.color2:  #6a6c47
+*.color3:  #826346
+*.color4:  #4e6c8b
+*.color5:  #6d648b
+*.color6:  #4b6f76
+*.color7:  #2e2e2e
+*.color8:  #b3b3b3
+*.color9:  #905b68
+*.color10: #6a6c47
+*.color11: #826346
+*.color12: #4e6c8b
+*.color13: #6d648b
+*.color14: #4b6f76
+*.color15: #2e2e2e

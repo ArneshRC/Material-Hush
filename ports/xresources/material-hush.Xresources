@@ -1,0 +1,22 @@
+! Material Hush — Xresources
+
+*.foreground:  #fafafa
+*.background:  #1c1c1c
+*.cursorColor: #fafafa
+
+*.color0:  #4a4a4a
+*.color1:  #ebafbd
+*.color2:  #dcdfb5
+*.color3:  #f5d2b1
+*.color4:  #aaccee
+*.color5:  #cac0ec
+*.color6:  #b8e0e7
+*.color7:  #dddddd
+*.color8:  #4a4a4a
+*.color9:  #ebafbd
+*.color10: #dcdfb5
+*.color11: #f5d2b1
+*.color12: #aaccee
+*.color13: #cac0ec
+*.color14: #b8e0e7
+*.color15: #dddddd
