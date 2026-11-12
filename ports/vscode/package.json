@@ -1,0 +1,40 @@
+{
+  "name": "material-hush",
+  "displayName": "Material Hush",
+  "description": "A quiet color palette that keeps you calm.",
+  "version": "0.1.0",
+  "publisher": "material-hush",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArneshRC/Material-Hush"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark",
+    "light",
+    "pastel",
+    "minimal"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Material Hush",
+        "uiTheme": "vs-dark",
+        "path": "./themes/material-hush-color-theme.json"
+      },
+      {
+        "label": "Material Hush Light",
+        "uiTheme": "vs",
+        "path": "./themes/material-hush-light-color-theme.json"
+      }
+    ]
+  }
+}
