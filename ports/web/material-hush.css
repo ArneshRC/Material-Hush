@@ -1,0 +1,86 @@
+/* Material Hush — CSS custom properties. */
+/* Light by default; dark via prefers-color-scheme or data-theme="dark". */
+
+:root,
+[data-theme="light"] {
+  color-scheme: light;
+  --hush-bg: #f5f5f4;
+  --hush-fg: #181818;
+  --hush-black: #b3b3b3;
+  --hush-red: #905b68;
+  --hush-green: #6a6c47;
+  --hush-yellow: #826346;
+  --hush-blue: #4e6c8b;
+  --hush-magenta: #6d648b;
+  --hush-cyan: #4b6f76;
+  --hush-white: #2e2e2e;
+  --hush-bright-black: #b3b3b3;
+  --hush-bright-red: #905b68;
+  --hush-bright-green: #6a6c47;
+  --hush-bright-yellow: #826346;
+  --hush-bright-blue: #4e6c8b;
+  --hush-bright-magenta: #6d648b;
+  --hush-bright-cyan: #4b6f76;
+  --hush-bright-white: #2e2e2e;
+  --hush-surface: #ebebe9;
+  --hush-overlay: #e4e4e2;
+  --hush-border: #dededc;
+  --hush-selection: #d6d6d3;
+  --hush-muted: #7c7c7a;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --hush-bg: #1c1c1c;
+  --hush-fg: #fafafa;
+  --hush-black: #4a4a4a;
+  --hush-red: #ebafbd;
+  --hush-green: #dcdfb5;
+  --hush-yellow: #f5d2b1;
+  --hush-blue: #aaccee;
+  --hush-magenta: #cac0ec;
+  --hush-cyan: #b8e0e7;
+  --hush-white: #dddddd;
+  --hush-bright-black: #4a4a4a;
+  --hush-bright-red: #ebafbd;
+  --hush-bright-green: #dcdfb5;
+  --hush-bright-yellow: #f5d2b1;
+  --hush-bright-blue: #aaccee;
+  --hush-bright-magenta: #cac0ec;
+  --hush-bright-cyan: #b8e0e7;
+  --hush-bright-white: #dddddd;
+  --hush-surface: #232323;
+  --hush-overlay: #2a2a2a;
+  --hush-border: #2e2e2e;
+  --hush-selection: #3a3a3a;
+  --hush-muted: #7a7a7a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --hush-bg: #1c1c1c;
+    --hush-fg: #fafafa;
+    --hush-black: #4a4a4a;
+    --hush-red: #ebafbd;
+    --hush-green: #dcdfb5;
+    --hush-yellow: #f5d2b1;
+    --hush-blue: #aaccee;
+    --hush-magenta: #cac0ec;
+    --hush-cyan: #b8e0e7;
+    --hush-white: #dddddd;
+    --hush-bright-black: #4a4a4a;
+    --hush-bright-red: #ebafbd;
+    --hush-bright-green: #dcdfb5;
+    --hush-bright-yellow: #f5d2b1;
+    --hush-bright-blue: #aaccee;
+    --hush-bright-magenta: #cac0ec;
+    --hush-bright-cyan: #b8e0e7;
+    --hush-bright-white: #dddddd;
+    --hush-surface: #232323;
+    --hush-overlay: #2a2a2a;
+    --hush-border: #2e2e2e;
+    --hush-selection: #3a3a3a;
+    --hush-muted: #7a7a7a;
+  }
+}

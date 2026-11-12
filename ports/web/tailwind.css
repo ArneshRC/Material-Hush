@@ -1,0 +1,28 @@
+/* Material Hush — Tailwind CSS v4 theme. */
+@import "./material-hush.css";
+
+@theme inline {
+  --color-hush-bg: var(--hush-bg);
+  --color-hush-fg: var(--hush-fg);
+  --color-hush-black: var(--hush-black);
+  --color-hush-red: var(--hush-red);
+  --color-hush-green: var(--hush-green);
+  --color-hush-yellow: var(--hush-yellow);
+  --color-hush-blue: var(--hush-blue);
+  --color-hush-magenta: var(--hush-magenta);
+  --color-hush-cyan: var(--hush-cyan);
+  --color-hush-white: var(--hush-white);
+  --color-hush-bright-black: var(--hush-bright-black);
+  --color-hush-bright-red: var(--hush-bright-red);
+  --color-hush-bright-green: var(--hush-bright-green);
+  --color-hush-bright-yellow: var(--hush-bright-yellow);
+  --color-hush-bright-blue: var(--hush-bright-blue);
+  --color-hush-bright-magenta: var(--hush-bright-magenta);
+  --color-hush-bright-cyan: var(--hush-bright-cyan);
+  --color-hush-bright-white: var(--hush-bright-white);
+  --color-hush-surface: var(--hush-surface);
+  --color-hush-overlay: var(--hush-overlay);
+  --color-hush-border: var(--hush-border);
+  --color-hush-selection: var(--hush-selection);
+  --color-hush-muted: var(--hush-muted);
+}
