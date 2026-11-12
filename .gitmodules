@@ -1,0 +1,3 @@
+[submodule "ports/neovim"]
+	path = ports/neovim
+	url = https://github.com/ArneshRC/material-hush.nvim.git
