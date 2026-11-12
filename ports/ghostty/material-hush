@@ -1,0 +1,25 @@
+# Material Hush — Ghostty
+
+background = #1c1c1c
+foreground = #fafafa
+cursor-color = #fafafa
+cursor-text = #1c1c1c
+selection-background = #3a3a3a
+selection-foreground = #fafafa
+
+palette = 0=#4a4a4a
+palette = 1=#ebafbd
+palette = 2=#dcdfb5
+palette = 3=#f5d2b1
+palette = 4=#aaccee
+palette = 5=#cac0ec
+palette = 6=#b8e0e7
+palette = 7=#dddddd
+palette = 8=#4a4a4a
+palette = 9=#ebafbd
+palette = 10=#dcdfb5
+palette = 11=#f5d2b1
+palette = 12=#aaccee
+palette = 13=#cac0ec
+palette = 14=#b8e0e7
+palette = 15=#dddddd

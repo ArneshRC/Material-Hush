@@ -1,0 +1,25 @@
+# Material Hush Light — Ghostty
+
+background = #f5f5f4
+foreground = #181818
+cursor-color = #181818
+cursor-text = #f5f5f4
+selection-background = #d6d6d3
+selection-foreground = #181818
+
+palette = 0=#b3b3b3
+palette = 1=#905b68
+palette = 2=#6a6c47
+palette = 3=#826346
+palette = 4=#4e6c8b
+palette = 5=#6d648b
+palette = 6=#4b6f76
+palette = 7=#2e2e2e
+palette = 8=#b3b3b3
+palette = 9=#905b68
+palette = 10=#6a6c47
+palette = 11=#826346
+palette = 12=#4e6c8b
+palette = 13=#6d648b
+palette = 14=#4b6f76
+palette = 15=#2e2e2e
