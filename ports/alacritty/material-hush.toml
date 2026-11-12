@@ -1,0 +1,41 @@
+# Material Hush — Alacritty
+
+[colors.primary]
+background = "#1c1c1c"
+foreground = "#fafafa"
+
+[colors.cursor]
+text   = "#1c1c1c"
+cursor = "#fafafa"
+
+[colors.selection]
+text       = "CellForeground"
+background = "#3a3a3a"
+
+[colors.search.matches]
+foreground = "#1c1c1c"
+background = "#f5d2b1"
+
+[colors.search.focused_match]
+foreground = "#1c1c1c"
+background = "#aaccee"
+
+[colors.normal]
+black   = "#4a4a4a"
+red     = "#ebafbd"
+green   = "#dcdfb5"
+yellow  = "#f5d2b1"
+blue    = "#aaccee"
+magenta = "#cac0ec"
+cyan    = "#b8e0e7"
+white   = "#dddddd"
+
+[colors.bright]
+black   = "#4a4a4a"
+red     = "#ebafbd"
+green   = "#dcdfb5"
+yellow  = "#f5d2b1"
+blue    = "#aaccee"
+magenta = "#cac0ec"
+cyan    = "#b8e0e7"
+white   = "#dddddd"

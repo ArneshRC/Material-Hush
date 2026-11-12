@@ -1,0 +1,41 @@
+# Material Hush Light — Alacritty
+
+[colors.primary]
+background = "#f5f5f4"
+foreground = "#181818"
+
+[colors.cursor]
+text   = "#f5f5f4"
+cursor = "#181818"
+
+[colors.selection]
+text       = "CellForeground"
+background = "#d6d6d3"
+
+[colors.search.matches]
+foreground = "#f5f5f4"
+background = "#826346"
+
+[colors.search.focused_match]
+foreground = "#f5f5f4"
+background = "#4e6c8b"
+
+[colors.normal]
+black   = "#b3b3b3"
+red     = "#905b68"
+green   = "#6a6c47"
+yellow  = "#826346"
+blue    = "#4e6c8b"
+magenta = "#6d648b"
+cyan    = "#4b6f76"
+white   = "#2e2e2e"
+
+[colors.bright]
+black   = "#b3b3b3"
+red     = "#905b68"
+green   = "#6a6c47"
+yellow  = "#826346"
+blue    = "#4e6c8b"
+magenta = "#6d648b"
+cyan    = "#4b6f76"
+white   = "#2e2e2e"
