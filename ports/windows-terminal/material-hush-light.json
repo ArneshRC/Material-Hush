@@ -1,0 +1,23 @@
+{
+  "name": "Material Hush Light",
+  "background": "#f5f5f4",
+  "foreground": "#181818",
+  "cursorColor": "#181818",
+  "selectionBackground": "#d6d6d3",
+  "black": "#b3b3b3",
+  "red": "#905b68",
+  "green": "#6a6c47",
+  "yellow": "#826346",
+  "blue": "#4e6c8b",
+  "purple": "#6d648b",
+  "cyan": "#4b6f76",
+  "white": "#2e2e2e",
+  "brightBlack": "#b3b3b3",
+  "brightRed": "#905b68",
+  "brightGreen": "#6a6c47",
+  "brightYellow": "#826346",
+  "brightBlue": "#4e6c8b",
+  "brightPurple": "#6d648b",
+  "brightCyan": "#4b6f76",
+  "brightWhite": "#2e2e2e"
+}

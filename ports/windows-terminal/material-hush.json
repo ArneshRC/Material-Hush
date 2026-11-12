@@ -1,0 +1,23 @@
+{
+  "name": "Material Hush",
+  "background": "#1c1c1c",
+  "foreground": "#fafafa",
+  "cursorColor": "#fafafa",
+  "selectionBackground": "#3a3a3a",
+  "black": "#4a4a4a",
+  "red": "#ebafbd",
+  "green": "#dcdfb5",
+  "yellow": "#f5d2b1",
+  "blue": "#aaccee",
+  "purple": "#cac0ec",
+  "cyan": "#b8e0e7",
+  "white": "#dddddd",
+  "brightBlack": "#4a4a4a",
+  "brightRed": "#ebafbd",
+  "brightGreen": "#dcdfb5",
+  "brightYellow": "#f5d2b1",
+  "brightBlue": "#aaccee",
+  "brightPurple": "#cac0ec",
+  "brightCyan": "#b8e0e7",
+  "brightWhite": "#dddddd"
+}
