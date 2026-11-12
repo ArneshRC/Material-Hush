@@ -1,0 +1,36 @@
+name: telegram theme
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ports/telegram/**
+      - .github/workflows/telegram.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Pack the theme
+        working-directory: ports/telegram
+        run: zip material-hush.tdesktop-theme colors.tdesktop-theme tiled.png
+
+      - name: Publish to the telegram release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          file=ports/telegram/material-hush.tdesktop-theme
+          if gh release view telegram > /dev/null 2>&1; then
+            gh release upload telegram "$file" --clobber
+          else
+            gh release create telegram "$file" \
+              --target "$GITHUB_SHA" \
+              --title "Telegram Desktop theme" \
+              --notes "Send the file to yourself in Telegram (Saved Messages), click it, and choose Apply this theme."
+          fi
