@@ -26,11 +26,15 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           file=ports/telegram/material-hush.tdesktop-theme
+          notes="Send the file to yourself in Telegram (Saved Messages), click it, and choose Apply this theme.
+
+          Updated as of: $(date -u +%F) ($GITHUB_SHA)"
           if gh release view telegram > /dev/null 2>&1; then
             gh release upload telegram "$file" --clobber
+            gh release edit telegram --notes "$notes"
           else
             gh release create telegram "$file" \
               --target "$GITHUB_SHA" \
               --title "Telegram Desktop theme" \
-              --notes "Send the file to yourself in Telegram (Saved Messages), click it, and choose Apply this theme."
+              --notes "$notes"
           fi
