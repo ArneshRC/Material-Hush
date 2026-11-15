@@ -560,7 +560,7 @@ settingsIconBg8: bright_orange;
 settingsIconBgArchive: #4a4a4a;
 settingsIconFg: bg0;
 
-// calls (the shared callIconFg sits on answer/hangup, so those use faded tones)
+// calls (callIconFg is shared with mute/camera, so answer/hangup stay dark for the light icon)
 callArrowFg: boxTextFgGood;
 callArrowMissedFg: boxTextFgError;
 callBg: #1c1c1cf2;
@@ -573,11 +573,11 @@ callIconFg: fg1;
 callIconBgActive: #ededede5;
 callIconFgActive: bg0;
 callIconActiveRipple: fg4;
-callAnswerBg: faded_green;
-callAnswerRipple: #8b8d71;
-callAnswerBgOuter: #d7dab626;
-callHangupBg: faded_red;
-callHangupRipple: #906a73;
+callAnswerBg: #35506a;
+callAnswerRipple: #536a80;
+callAnswerBgOuter: #aac7e326;
+callHangupBg: #6b3d49;
+callHangupRipple: #815a64;
 callMuteRipple: #ededed12;
 
 // group calls
