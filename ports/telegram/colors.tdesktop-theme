@@ -560,6 +560,58 @@ settingsIconBg8: bright_orange;
 settingsIconBgArchive: #4a4a4a;
 settingsIconFg: bg0;
 
+// calls (the shared callIconFg sits on answer/hangup, so those use faded tones)
+callArrowFg: boxTextFgGood;
+callArrowMissedFg: boxTextFgError;
+callBg: #1c1c1cf2;
+callBgOpaque: bg0;
+callBgButton: #1c1c1c7f;
+callNameFg: fg1;
+callStatusFg: gray1;
+callIconBg: #ededed1f;
+callIconFg: fg1;
+callIconBgActive: #ededede5;
+callIconFgActive: bg0;
+callIconActiveRipple: fg4;
+callAnswerBg: faded_green;
+callAnswerRipple: #8b8d71;
+callAnswerBgOuter: #d7dab626;
+callHangupBg: faded_red;
+callHangupRipple: #906a73;
+callMuteRipple: #ededed12;
+
+// group calls
+groupCallBg: bg0;
+groupCallActiveFg: bright_blue;
+groupCallMembersBg: bg1;
+groupCallMembersBgOver: #323232;
+groupCallMembersBgRipple: bg3;
+groupCallMembersFg: fg1;
+groupCallMemberActiveIcon: bright_green;
+groupCallMemberActiveStatus: bright_green;
+groupCallMemberInactiveIcon: gray0;
+groupCallMemberInactiveStatus: bright_blue;
+groupCallMemberMutedIcon: neutral_red;
+groupCallMemberNotJoinedStatus: gray1;
+groupCallIconFg: fg1;
+groupCallLive1: faded_green;
+groupCallLive2: faded_aqua;
+groupCallMuted1: faded_blue;
+groupCallMuted2: faded_aqua;
+groupCallForceMutedBar1: faded_red;
+groupCallForceMutedBar2: faded_purple;
+groupCallForceMutedBar3: faded_blue;
+groupCallForceMuted1: faded_blue;
+groupCallForceMuted2: faded_purple;
+groupCallForceMuted3: faded_red;
+groupCallMenuBg: bg1;
+groupCallMenuBgOver: #323232;
+groupCallMenuBgRipple: bg3;
+groupCallLeaveBg: #aa7d887f;
+groupCallLeaveBgRipple: #aa7d889e;
+groupCallVideoTextFg: #ededede0;
+groupCallVideoSubTextFg: #edededc0;
+
 // misc
 filterInputActiveBg: windowBg;
 paymentsTipActive: bright_green;
@@ -568,8 +620,6 @@ overviewCheckBgActive: bright_blue;
 overviewCheckBorder: windowBg;
 mainMenuCloudFg: activeButtonFg;
 mainMenuCloudBg: activeButtonBgRipple;
-callArrowFg: boxTextFgGood;
-callArrowMissedFg: boxTextFgError;
 mapPointDrop: neutral_red;
 mapPointDot: bg0;
 outdatedFg: #fafafa;
